@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Gallivant is a bespoke travel service for millennials who are interested in literature and history."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@400;700&family=Hubballi&family=Lato&family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <title>Gallivant &mdash; Get out there</title>
+  </head>
+  <body>
+    <header class="header sticky">
+      <a href="#">
+        <h1 class="logo">Gallivant</h1>
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li><a class="main-nav-link" href="#tours">Tours</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <section id="showcase">
+      <div class="container">
+        <div class="showcase-container">
+          <div class="showcase-content">
+            <h1>Get Out There</h1>
+            <a href="#contact" class="btn btn-primary">Go Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-about" id="about">
+      <div class="container">
+        <h2 class="about-us">Our Story</h2>
+        <p class="story">
+          What do two grad students studying literature know about international
+          travel? Quite a lot, it turns out! In our research, we frequently work
+          with librarians and guides who safeguard primary source documents such
+          as diary entries, newspaper clippings, etc. These people are extremely
+          knowledgeable and passionate about their subjects. Through our work,
+          we realized that it's these people - the curators and librarians - who
+          bring to life the stories of their subjects - the artists and writers
+          who created the culture of the cities where they lived and worked. We
+          connect you with these research librarians and local guides - and we
+          also set up lodging and travel, if you need it! We can create a tour
+          package specifically for you based on your needs and interests -
+          bespoke tours are our specialty!
+        </p>
+      </div>
+    </section>
+    <section class="Tours" id="tours">
+      <h2 class="title">Tours</h2>
+      <div class="tours-container">
+        <h2 class="tours-continent">Europe</h2>
+
+        <div
+          name="tour-text"
+          class="grid grid--2-cols grid--center--v tours-info"
+        >
+          <div class="tour-img">
+            <img
+              src="emily_bronte.jpg"
+              alt="Illustration of Emily Bronte with a book"
+            />
+          </div>
+          <div class="tour-description-text">
+            <h3 class="tour-title">Emily Brontë's Thornton</h3>
+            <p class="tour-description">
+              Only Emily Brontë's singular mind could create a story like
+              Wuthering Heights. Immerse yourself in the beauty of the moorlands
+              as you journey inside the world of Emily's imagination. We connect
+              you with the Brontë Birthplace Trust for a gothic tour unlike any
+              other!
+            </p>
+          </div>
+
+          <div class="tour-description-text">
+            <h3 class="tour-title">Jane Austen's Bath</h3>
+            <p class="tour-description">
+              Way before Bridgerton, Jane Austen was the authority on Regency
+              social norms and customs. Take a stroll around the Royal Crescent
+              with our accomplished guides who can give you insights into all of
+              the locations in Jane's books, plus a tour the famous Ancient
+              Roman Baths for which the town is named.
+            </p>
+          </div>
+          <div class="tour-img">
+            <img
+              src="Bath.jpeg"
+              alt="Photo of the Royal Crescent in Bath, UK"
+            />
+          </div>
+
+          <div class="tour-img">
+            <img
+              src="Barcelona.JPG"
+              alt="Photo of curvy chapel, towers, and railing in Parc Guell, Barcelona"
+            />
+          </div>
+          <div class="tour-description-text">
+            <h3 class="tour-title">Gaudi's Barcelona</h3>
+            <p class="tour-description">
+              It would be hard to find an architecht with a style as distinctive
+              and an impact as big on any particular city as Gaudi's on
+              Barcelona. Not only will you visit the usual spots, such as Casa
+              Battlo, La Perdera, and Parc Guell, but we'll also take you
+              outside of the city to Montserrat, the heart of Catalonia, where
+              you'll experience the natural landscape that inspired Gaudi -
+              immideiately recognizable in the towers of the Sagrada Familia.
+            </p>
+          </div>
+
+          <div class="tour-description-text">
+            <h3 class="tour-title">Haussmann's Paris</h3>
+            <p class="tour-description">
+              In no city is one man's influence so deeply felt as Georges-Eugène
+              Haussmann's on the streets of Paris. Stroll along the boulevards
+              like a true flaneur as we show you all the spots that meant the
+              most to prominent French writers and thinkers, as well as
+              displaced Americans (Fitzgerald, Hemingway, etc.) who made their
+              home there in the 1920s.
+            </p>
+          </div>
+          <div class="tour-img">
+            <img
+              src="Paris.JPG"
+              alt="Photo of a street in the Bastille district of Paris"
+            />
+          </div>
+
+          <div class="tour-img">
+            <img
+              src="Dublin.jpg"
+              alt="Photo of Irish flags in front of a pub in Dublin"
+            />
+          </div>
+          <div class="tour-description-text">
+            <h3 class="tour-title">Joyce's Dublin</h3>
+            <p class="tour-description">
+              Though he spent a great deal of time in Paris in the 20s, Joyce is
+              remembered for his evocative portraits of his home city: Dublin.
+              We take a stroll through his streets, as well as those of other
+              prominent literary Irishmen such as Oscar Wilde, Jonathan Swift,
+              and Samuel Beckett. A trip to Kilmainham Gaol helps us to draw a
+              line from the past to the present and understand the work of
+              contemporary Irish writers and playwrights such as Sally Rooney
+              and Enda Walsh.
+            </p>
+          </div>
+
+          <div class="tour-description-text">
+            <h3 class="tour-title">Agamemnon's Greece</h3>
+            <p class="tour-description">
+              Take a journey to the ancient land of kings. Want to consult the
+              Oracle of Delphi? We visit all of the sites that inspired ancient
+              poets for centuries, from Homer to Shakespeare. The theatrical
+              tradition is strong, as you'll see at the Epidaurus. Finally, we
+              conclude in the Greek islands, the heart of the country and the
+              place you absolutely must visit in order to comprehend its spirit
+              and its heart.
+            </p>
+          </div>
+          <div class="tour-img">
+            <img
+              src="Greece.JPG"
+              alt="Photo of ruins at Delphi in front of a mountain"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="tours-container">
+        <h2 class="tours-continent tours-open">North America</h2>
+
+        <div
+          name="tours-text"
+          class="tours-info grid grid--2-cols grid--center--v tours-closed"
+        >
+          <div class="tour-img">
+            <img
+              src="NYC.JPG"
+              alt="Subway mosaic indicating the entrance to the downtown platform in the NYC subway"
+            />
+          </div>
+          <div class="tour-description-text">
+            <h3 class="tour-title">Dorothy Parker's New York</h3>
+            <p class="tour-description">
+              Pull up a chair at the Algonquin Round Table and have a drink with
+              the society wits. It's impossible to overstate the literary
+              history of New York City, and almost impossible to fit it all into
+              one tour, but we do our best - with experts on Henry James, Edith
+              Wharton, Dorothy Parker, and countless others.
+            </p>
+          </div>
+
+          <div class="tour-description-text">
+            <h3 class="tour-title">Springsteen's Asbury Park</h3>
+            <p class="tour-description">
+              You may know The Boss, but did you know about the rich musical
+              history of Asbury Park? A city that had once fallen on hard times,
+              it is now fully revived with a thriving arts community. We'll take
+              you to the Stone Pony, of course, but also through the complete
+              musical history of this city by the sea.
+            </p>
+          </div>
+          <div class="tour-img">
+            <img
+              src="AP.JPG"
+              alt="Building covered with murals on the Asbury Park Boardwalk"
+            />
+          </div>
+
+          <div class="tour-img">
+            <img
+              src="san-simeon.JPG"
+              alt="Photo of a rocky beach at sunrise in San Simeon, California"
+            />
+          </div>
+          <div class="tour-description-text">
+            <h3 class="tour-title">Hearst's San Simeon</h3>
+            <p class="tour-description">
+              W.R. Hearst's palatial San Simeon estate is no Xanadu - it's much
+              more beautiful, warm, festive and inviting. You'll find the
+              Central Coast of California to be spectacularly beautiful as we
+              bring you inside the newspaper magnate's world and give you the
+              story behind the estate, which hosted film stars and literary
+              luminaries in its heyday. Plus, we have local experts on the life
+              of Julia Morgan, the accomplished female architecht who made W.R.
+              Hearst's vision for La Cuesta Encantada a reality.
+            </p>
+          </div>
+
+          <div class="tour-description-text">
+            <h3 class="tour-title">Eve's Hollywood</h3>
+            <p class="tour-description">
+              Take a look at Hollywood as it was seen by the people who loved it
+              - like Eve Babitz - or who were nonplussed by the trappings of
+              Tinseltown, like Joan Didion. We'll take you to sites significant
+              to major stars of the silver screen, capturing that old California
+              glamour while indulging in all of the sights and sounds that
+              modern Los Angeles has to offer.
+            </p>
+          </div>
+          <div class="tour-img">
+            <img
+              src="Hollywood.jpg"
+              alt="Photo of palm trees aligned in uniform rows in front of the Los Angeles County Museum of Contemporary Art"
+            />
+          </div>
+
+          <div class="tour-img">
+            <img
+              src="CDMX.JPG"
+              alt="Photos of colorful boats on the water at Xochimlico"
+            />
+          </div>
+          <div class="tour-description-text">
+            <h3 class="tour-title">Kahlo's CDMX</h3>
+            <p class="tour-description">
+              You may know all about Frida and Diego, but do you know
+              Sisquieros? We start this tour at the Blue House of Frida Kahlo
+              and Diego Rivera, using their home as a launching point into this
+              vast and exciting city. We'll explore the nearby Coyoacán district
+              and dive deep into history at the Museo Nacional de Antropología.
+              No visit would be complete without a visit to the magical
+              Xochimilco. Throughout it all, we'll dive deep into this country
+              rich in folklore and mythology, while tracing its influence on
+              modern Mexican writers such as Álvaro Enrigue and Fernanda
+              Melchor.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="check-back-soon">
+        <p>
+          The COVID-19 pandemic overthrew our plans to expand our tour offerings
+          in Asia, Africa, and South America. We're currently sorting out the
+          details to get those tours up and running. Check back soon for
+          additional tour offerings!
+        </p>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <h2 class="title">Testimonials</h2>
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best trip ever!</h5>
+            <blockquote class="testimonial__text">
+              Wow, what can I say? The team at Gallivant was so professional and
+              had a stellar eye for personal details. They worked with us to
+              create our dream trip. We didn't want to splurge on our hotel, so
+              they connected with a local host in Dublin - he was so sweet! He
+              made us breakfast every day! It was the trip of a lifetime - thank
+              you Gallivant, and thank you, Seamus!
+            </blockquote>
+            <address class="testimonial__author">
+              <h6 class="testimonial__name">Sandra Burke</h6>
+              <p class="testimonial__location">Asheville, NC</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">I never knew!</h5>
+            <blockquote class="testimonial__text">
+              We booked a staycation - Gallivant will let you choose which parts
+              of the package you want to keep, or what are superfluous. We
+              joined the tour with some cool people from out of town, who ended
+              up becoming our pen pals. We never knew our city had so much
+              history - thank you so much for bringing it to us!
+            </blockquote>
+            <address class="testimonial__author">
+              <h6 class="testimonial__name">Cady Smith</h6>
+              <p class="testimonial__location">Brooklyn, NY</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">What a trip!</h5>
+            <blockquote class="testimonial__text">
+              Gallivant took all of the guesswork out of planning. We had a
+              consultation to determine what we wanted to see, what our
+              interests were, etc, and they put together an amazing itinerary
+              for us. When we travel, we usually spend so much time consulting
+              guidebooks, trying to figure out what sights to see, trying to
+              figure out how to use public transit in a new city, trying to
+              figure out if we'll have enough time to do it all. Gallivant
+              handled everything so we could just enjoy ourselves.
+            </blockquote>
+            <address class="testimonial__author">
+              <h6 class="testimonial__name">Dan Thomas</h6>
+              <p class="testimonial__location">Boston, MA</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+    <section class="section-cta" id="contact">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Get out there now!</h2>
+            <p class="cta-text">
+              The world is waiting. Don't lose another minute. Contact us now
+              for more information about our standard tours, or chat with us
+              about a bespoke option.
+            </p>
+
+            <form
+              class="cta-form"
+              name="contact"
+              method="POST"
+              data-netlify="true"
+            >
+              <div>
+                <label for="full-name">Full name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Abby Person"
+                  required
+                />
+              </div>
+              <div>
+                <label for="email">Email address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  required
+                />
+              </div>
+
+              <div>
+                <label>Where did you hear about us?</label>
+                <select id="select-where" required>
+                  <option value="">Please choose one option</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="News">Newspaper feature</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="Instagram">Instagram ad</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <button class="btn--form">Get out there</button>
+            </form>
+          </div>
+          <div
+            class="cta-img-box"
+            role="img"
+            aria-label="Amsterdam Library with sun streaming in the windows"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <div class="container footer-container">
+        <div>
+          <a href="#">
+            <h1 class="logo">Gallivant</h1>
+          </a>
+          <p>
+            8 Sylvan Avenue <br />
+            New Haven, CT 06510 <br />
+          </p>
+        </div>
+
+        <div>
+          <h3>Site Links</h3>
+          <ul class="list">
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- <div class="background"></div> -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="script.js"></script>
+  </body>
+</html>
